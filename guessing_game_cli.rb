@@ -9,7 +9,6 @@ def run_guessing_game
 
   if input == 'exit'
     puts "Goodbye!"
-    binding.pry
   elsif input == number
     puts "You guessed the correct number!"
   else
