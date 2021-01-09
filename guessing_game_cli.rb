@@ -7,7 +7,7 @@ def run_guessing_game
 
   if input == 'exit'
     puts "Goodbye!"
-    
+
   case  input
     when "exit"
     when number
