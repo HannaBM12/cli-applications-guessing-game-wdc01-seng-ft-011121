@@ -1,9 +1,11 @@
 # Code your solution here!
+require 'pry'
 def run_guessing_game
   number = rand(7)
   puts "Guess a number between 1 and 6"
   input = gets
   input = input.chomp.to_i
+  binding.pry
 
   if input == 'exit'
     puts "Goodbye!"
